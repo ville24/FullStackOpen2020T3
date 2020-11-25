@@ -12,6 +12,8 @@ app.use(express.json())
 
 app.use(cors())
 
+app.use(express.static('build'))
+
 let persons = [
     {
       "name": "Arto Hellas",
