@@ -1,4 +1,4 @@
-POST https://polar-ocean-10105.herokuapp.com/api/persons
+POST http://localhost:3001/api/persons
 Content-Type: application/json
 
 {
